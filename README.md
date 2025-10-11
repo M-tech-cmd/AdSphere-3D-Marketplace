@@ -1,99 +1,82 @@
-💠 AdSphere Kenya — The 3D Interactive Ads Marketplace
+# 💠 AdSphere Kenya — The 3D Interactive Ads Marketplace
 
-A futuristic 3D ads marketplace where listings are not just static posts — but immersive, animated, and interactive experiences.Built with React + TypeScript + Vite, powered by Three.js, GSAP, and Supabase.
+> **A futuristic 3D ads marketplace where listings are not just static posts — but immersive, animated, and interactive experiences.**
+> Built with **React + TypeScript + Vite**, powered by **Three.js**, **GSAP**, and **Supabase**.
 
-🧠 Overview
+---
 
-AdSphere Kenya reimagines the traditional online marketplace.Think OLX or Jiji Kenya, but in 3D — where ads come alive with smooth animations, interactive product previews, and cinematic scrolling experiences.
+## 🧠 Overview
 
-Instead of static car images, imagine a rotating 3D model of a Toyota Probox with glowing price tags and motion graphics powered by GSAP.
+**AdSphere Kenya** reimagines the traditional online marketplace.
+Think **OLX** or **Jiji Kenya**, but in **3D** — where ads come alive with smooth animations, interactive product previews, and cinematic scrolling experiences.
 
-The platform merges motion design, 3D environments, and commerce, giving users a new way to explore, showcase, and interact with ads.
+Instead of static car images, imagine a **rotating 3D model of a Toyota Probox** with glowing price tags and motion graphics powered by **GSAP**.
 
-✨ Core Features
+The platform merges **motion design, 3D environments, and commerce**, giving users a new way to explore, showcase, and interact with ads.
 
-🚀 Immersive 3D Interface
+---
 
-3D Category Selector (Three.js) — Cars, Real Estate, Jobs, and Electronics float as 3D icons in a cyber-styled environment.
+## ✨ Core Features
 
-Animated Ad Cards (GSAP + React) — Dynamic entry, hover flips, and parallax transitions.
+### 🚀 Immersive 3D Interface
 
-Interactive 3D Models (GLTF/FBX) — Sellers can upload 3D versions of their products.
+* **3D Category Selector (Three.js)** — Cars, Real Estate, Jobs, and Electronics float as 3D icons in a cyber-styled environment.
+* **Animated Ad Cards (GSAP + React)** — Dynamic entry, hover flips, and parallax transitions.
+* **Interactive 3D Models (GLTF/FBX)** — Sellers can upload 3D versions of their products.
 
-🏙️ Home Experience
+### 🏙️ Home Experience
 
-Nairobi skyline rendered in Three.js
+* Nairobi skyline rendered in **Three.js**
+* Floating “Ad Bubbles” representing live categories
+* Scroll-triggered animations via **GSAP Timelines**
 
-Floating “Ad Bubbles” representing live categories
+### 🔍 Advanced Filters
 
-Scroll-triggered animations via GSAP Timelines
+* Filters slide in with GSAP
+* Real-time transitions between filtered results
 
-🔍 Advanced Filters
+### 💬 Smart Listings
 
-Filters slide in with GSAP
+* Animated ad previews
+* Real-time updates from Supabase
+* Seller ratings and verified badges
 
-Real-time transitions between filtered results
+---
 
-💬 Smart Listings
+## 💻 Tech Stack
 
-Animated ad previews
+| Category       | Technology                                              |
+| -------------- | ------------------------------------------------------- |
+| **Frontend**   | React + TypeScript + Vite                               |
+| **3D Engine**  | Three.js                                                |
+| **Animations** | GSAP (ScrollTrigger, MorphSVG, Stagger)                 |
+| **Backend**    | Supabase (Auth, Database, File Storage) — *Coming soon* |
+| **Payments**   | M-Pesa API / Flutterwave — *Coming soon*                |
+| **Design**     | Tailwind CSS + Framer Motion (optional)                 |
 
-Real-time updates from Supabase
+---
 
-Seller ratings and verified badges
+## 💰 Monetization Model
 
-💻 Tech Stack
+* 🔸 **Premium Listings** – Highlighted ads with glowing effects
+* 🔸 **Business Subscriptions** – Bulk uploads, featured placements
+* 🔸 **3D Showroom Option** – Sellers can upload interactive 3D models for an additional fee
 
-Category
+---
 
-Technology
+## 🧭 Example User Flow
 
-Frontend
+1. User lands on homepage → 3D Nairobi skyline background.
+2. Floating category bubbles appear with GSAP entrance animation.
+3. User clicks **Cars** → camera zooms into a 3D car model.
+4. Interactive listings load → each ad card animates in with parallax and motion blur.
+5. Buyer views, filters, and interacts with rotating 3D products before purchasing or contacting the seller.
 
-React + TypeScript + Vite
+---
 
-3D Engine
+## 🛠️ Installation
 
-Three.js
-
-Animations
-
-GSAP (ScrollTrigger, MorphSVG, Stagger)
-
-Backend
-
-Supabase (Auth, Database, File Storage) — Coming soon
-
-Payments
-
-M-Pesa API / Flutterwave — Coming soon
-
-Design
-
-Tailwind CSS + Framer Motion (optional)
-
-💰 Monetization Model
-
-🔸 Premium Listings – Highlighted ads with glowing effects
-
-🔸 Business Subscriptions – Bulk uploads, featured placements
-
-🔸 3D Showroom Option – Sellers can upload interactive 3D models for an additional fee
-
-🧭 Example User Flow
-
-User lands on homepage → 3D Nairobi skyline background.
-
-Floating category bubbles appear with GSAP entrance animation.
-
-User clicks Cars → camera zooms into a 3D car model.
-
-Interactive listings load → each ad card animates in with parallax and motion blur.
-
-Buyer views, filters, and interacts with rotating 3D products before purchasing or contacting the seller.
-
-🛠️ Installation
-
+```
 # Clone the repository
 git clone https://github.com/your-username/adsphere-kenya.git
 cd adsphere-kenya
@@ -103,28 +86,32 @@ npm install
 
 # Run development server
 npm run dev
+```
 
-Then open http://localhost:5173 in your browser.
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-🧩 Coming Soon
+---
 
-🖥️ Backend
+## 🧩 Coming Soon
 
-Supabase (Authentication, Database, File Storage)
+### 🖥️ Backend
 
-💳 Payments
+* **Supabase** (Authentication, Database, File Storage)
 
-M-Pesa API / Flutterwave integration
+### 💳 Payments
 
-🤖 AI & More Features
+* **M-Pesa API / Flutterwave** integration
 
-AI-powered ad recommendations
+### 🤖 AI & More Features
 
-Seller performance analytics
+* **AI-powered ad recommendations**
+* **Seller performance analytics**
+* **Enhanced 3D product visualization tools**
 
-Enhanced 3D product visualization tools
+---
 
-📄 License
+## 📄 License
 
-MIT License © 2025 M-Tech-CmdAll Rights Reserved.Unauthorized reproduction or reuse of this code or design is strictly prohibited.
-
+MIT License © 2025 M-Tech-Cmd
+All Rights Reserved.
+Unauthorized reproduction or reuse of this code or design is strictly prohibited.
